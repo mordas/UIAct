@@ -5993,6 +5993,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 6830380354609316088, guid: cedb37b6c7878954285e82342ae83a81,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 698621012f4317746bf1b79896b709b6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cedb37b6c7878954285e82342ae83a81, type: 3}
 --- !u!1 &1131509373
@@ -6532,6 +6537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreLabel: {fileID: 304093547}
+  settingsPopup: {fileID: 0}
 --- !u!4 &1702021465
 Transform:
   m_ObjectHideFlags: 0
